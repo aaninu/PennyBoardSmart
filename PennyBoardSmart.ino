@@ -24,6 +24,18 @@ int Button_Right_Red = 10;
 // Setup PINs
 void setup() {
   pinMode(Top_Left_Yellow, OUTPUT);
+  pinMode(Top_Left_Blue, OUTPUT);
+  pinMode(Top_Left_White, OUTPUT);
+  
+  pinMode(Top_Right_Yellow, OUTPUT);
+  pinMode(Top_Right_Blue, OUTPUT);
+  pinMode(Top_Right_White, OUTPUT);
+  
+  pinMode(Bottom_Left_Yellow, OUTPUT);
+  pinMode(Bottom_Left_Red, OUTPUT);
+
+  pinMode(Button_Right_Yellow, OUTPUT);
+  pinMode(Button_Right_Red, OUTPUT);
 
 }
 
