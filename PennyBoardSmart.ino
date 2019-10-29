@@ -9,7 +9,7 @@
 // LEDs for Top - Left
 int Top_Left_Yellow = 2;
 int Top_Left_Blue = 3;
-int Top_Left_White = 4;
+int Top_Left_White = 12;
 
 // LEDs for Top - Right
 int Top_Right_Yellow = 5;
