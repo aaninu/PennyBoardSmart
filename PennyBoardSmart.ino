@@ -289,6 +289,12 @@ void Led_Mode_One(){
   }
 
   /** Five */
+  digitalWrite(Bottom_Left_Red, HIGH);
+  digitalWrite(Bottom_Right_Red, HIGH);
+  digitalWrite(Top_Left_Blue, HIGH);
+  digitalWrite(Top_Right_Blue, HIGH);
+
+  /** Six */
   for (int i = 1; i <= 15; i++){
     digitalWrite(Bottom_Left_Yellow, HIGH);
     digitalWrite(Button_Right_Yellow, HIGH);
